@@ -1,0 +1,412 @@
+html,body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*
+
+
+.navbar-default .navbar-collapse {
+  border-color: black;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+
+
+.nav img {
+  float: left;
+}
+*/
+.navbar-default {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.navbar-default .container-fluid {
+    margin: 0 auto;
+    background-color:black;
+    width: 1200px;
+}
+
+.nav li {
+  padding: 12px 15px;
+  background:  black;
+  color: #fff;
+  font-family: arial;
+  margin-top: 50px;
+}
+
+.wizards {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.logo {
+}
+
+.capital {
+  margin-left: 25%;
+}
+
+.capital b {
+  color: #fff;
+  font-size: 11px;
+  padding: 5px;
+}
+
+.links {
+
+}
+
+body {
+    background: url('https://www.nba.com/wizards/sites/wizards/files/1718-bg-2120x18003_1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.main {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #F2F4F4;     
+}
+
+
+
+.headline {
+    width: auto;
+}
+
+.headline h1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+#tix-alert {
+    min-width: 130px;
+    padding: 3px 35px;
+    margin-bottom: 5%;
+    height: 23px;
+    line-height: 23px;
+    border-radius: 3px;
+    background-color: #009cde;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+#write {
+    margin-left: 10px;
+    padding: 0px 12px;
+    border: 1px solid #009cde;
+    border-radius: 3px;
+    text-align: center;
+    background-color: transparent;
+    color: #009cde;
+}
+
+#write a:hover {
+    background-color: #009cde;
+    color: #FFFFFF;
+}
+
+
+#tweet {
+    position: relative;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+    background-color: #1b95e0;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+#like {
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+}
+
+   
+
+#friends {
+    margin-top: -2.5%;
+    margin-left: 10%;
+}
+
+
+
+
+
+.tickets  {
+    background-color: #dddddd;
+    width: 550px;
+    height: auto;
+    
+}
+
+
+
+.tickets h3 {
+    font-size: 16;
+    font-weight: bold;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+.schedule {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+.details h3 {
+    font-size: 16;
+    font-weight: bold;
+    padding: 0;
+    width: auto;
+    height: auto;
+    margin-bottom: -3%;
+
+}
+hr {
+    margin-bottom: -3%;
+}
+.square {
+    background: #009cde;
+    border-bottom: 10px solid #fff;
+    width: 55px;
+    height: 70px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+#view {
+    font-weight: bold;
+}
+
+#notice {
+    margin-top: 5%;
+}
+
+#month {
+  font-family: arial, helvetica, FreeSans, Nimbus Sans L, Garuda, Utkal, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 2px;  
+}
+
+#date {
+  font-family: arial, helvetica, FreeSans, Nimbus Sans L, Garuda, Utkal, sans-serif;
+  font-size: 25px;
+  color: #fff;
+  line-height: 4px; 
+  padding-bottom: 2px;
+}
+
+#day {
+    font-family: arial, helvetica, FreeSans, Nimbus Sans L, Garuda, Utkal, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+#see-tickets {
+    padding: 3px 10px;
+    background: #009cde;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#arena {
+    color: #414141;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+} 
+#end hr{
+    background-color: black;
+
+}
+#results {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.friends-module {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #414141;
+    width: 362px;
+    float: right;
+    margin-top: -66.6%;
+    margin-left: 530px;
+    position: fixed;
+}
+
+@media only screen and (max-width: 1440px) {
+    .friends-module {
+        margin-top: -81.9%;
+        margin-left: 530px;
+        position: fixed;
+    }
+}
+
+.friends-module .lid, #colRight .friends-module .lid {
+    color: #414141;
+    border: 0;
+    font-size: 14px;
+    padding: 18px 22px;
+    height: 24px;
+    line-height: 2px;
+    background: #fff url("https://s1.ticketm.net/en-us/css/d169d5534e960d2f971f07605516c9d7/rebrand_smvp/tm/img/sys/facebook/tm_silver_bg.png") bottom repeat-x;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.friends-module .attending-module {
+    margin: 0 10px 10px;
+}
+
+.friends-module ul.tabs {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -1px;
+}
+
+.friends-module .module-content {
+    border-top: 1px solid #ccc;
+    padding: 10px 5px 15px;
+    text-align: right;
+}
+
+
+.friends-module .module-content {
+    border-top: 1px solid #ccc;
+    padding: 10px 5px 15px;
+    text-align: right;
+}
+
+.friends-module .fb-like-module {
+    position: relative;
+    background-color: #efefef;
+    border-top: 1px solid #ccc;
+}
+
+.friends-module ul.tabs li.selected {
+    background-color: #fff;
+    border-color: #ccc #ccc #fff;
+}
+
+.friends-module ul.tabs li {
+    float: left;
+    background-color: #d7dfea;
+    border: 1px solid #d7dfea;
+    border-bottom: 1px solid #ccc;
+    margin: 4px 0 0 10px;
+}
+
+.friends-module ul.tabs li b {
+    display: inline-block;
+    background: url(img/sys/facebook/fb-sprites.png) -170px -183px no-repeat;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+ .hideContent img {
+  margin-top: -4%;
+}
+
+.h4 {
+  margin-top: -7%;
+  margin-left: 15%;
+  font-size: 18px;
+}
+
+.friends-module .attending-module .question {
+    margin-left: 60px;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 50px;
+    overflow: hidden;
+}
+
+.friends-module .attending-module .question ul.option li a, .friends-module .attending-module .question ul.option li a b {
+    display: inline-block;
+    background-color:#3b5998;
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.friends-module a, .plugin-lightbox a {
+    font-weight: bold;
+    color: #034678 !important;
+}
+
+a, a.findTickets {
+    text-decoration: none;
+    color: #009cde;
+}
+
+.ask {
+  background: url('https://s1.ticketm.net/en-us/css/d169d5534e960d2f971f07605516c9d7/rebrand_smvp/tm/img/sys/facebook/btn_style.png') no-repeat center;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+}
