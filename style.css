@@ -67,8 +67,8 @@ html,body {
 }
 
 body {
-    background: url('https://www.nba.com/wizards/sites/wizards/files/1718-bg-2120x18003_1.jpg');
-    background-size: contain;
+    background: url('https://www.nba.com/wizards/sites/wizards/files/1718-bg-2120x18003_1.jpg') no-repeat no-repeat;
+    background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
