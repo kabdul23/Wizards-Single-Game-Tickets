@@ -75,14 +75,37 @@ body {
 }
  
 .main {
-    width: 725px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     background-color: #F2F4F4;     
 }
 
-
-
+@media only screen and (min-width: 960px) {
+.main {
+    width: 615px;
+    height: auto;
+    margin: 75 auto;
+    background-color: #F2F4F4;     
+}
+    
+@media only screen and (min-width: 1440px) {
+.main {
+    width: 790px;
+    height: auto;
+    margin: 75 auto;
+    background-color: #F2F4F4;     
+}
+    
+@media only screen and (min-width: 2000px) {
+.main {
+    width: 1450px;
+    height: auto;
+    margin: 75 auto;
+    background-color: #F2F4F4;     
+}
+    
+}
 .headline {
     width: auto;
 }
@@ -150,8 +173,9 @@ body {
    
 
 #friends {
-    margin-top: -2.5%;
+    margin-top: -1.5%;
     margin-left: 10%;
+    font-size: 9px;
 }
 
 
