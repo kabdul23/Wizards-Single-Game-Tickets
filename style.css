@@ -22,6 +22,14 @@ body  .background {
     margin: 0 auto;
 }
 
+@media only screen and (man-width:480px) {
+.background .main {
+    width: 90%;
+    background-color: #F2F4F4;
+    margin: 0 auto;
+}
+}
+
 .main {
     margin: 50 auto;  
 }
@@ -37,8 +45,8 @@ body  .background {
 
 @media only screen and (min-width:960px) {
 .headline .wizlogo {
-    max-width: auto;
-    max-height: auto;
+    width: 200px;
+    height: 200px;
     float: left;
     }
 .headline .col-lg-8 {
