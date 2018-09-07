@@ -37,8 +37,8 @@ body  .background {
 
 @media only screen and (min-width:960px) {
 .headline .wizlogo {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: auto;
+    max-height: auto;
     float: left;
     }
 .headline .col-lg-8 {
