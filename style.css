@@ -106,7 +106,17 @@ body  .background {
     font-size: 14px;
 }
 
+@media only screen and (min-width:960px) {
+  .headlines .wizlogo {
+      width: 75%;
+    }
+}
 
+@media only screen and (max-device-width:480px) {
+    .headlines .wizlogo {
+      width: 75%;
+    }
+}
 
 #write {
     margin-left: 10px;
