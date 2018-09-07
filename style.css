@@ -19,15 +19,17 @@ body  .background {
 .background .main {
     width: 60%;
     background-color: #F2F4F4;
-    margin: 50 auto;
+    margin: 0 auto;
 }
 
 .main .headline {
     width: 100%;
+    margin: 50 auto;
 }
 
 .headline .wizlogo {
-    width: 320px;
+    max-width: 300px;
+    max-height: 300px;
     float: left;
 }
 
@@ -38,6 +40,7 @@ body  .background {
 
 .headline h1 {
     font-size: 23px;
+    font-weight: bold;
     margin-bottom: 18px;
 }
 
