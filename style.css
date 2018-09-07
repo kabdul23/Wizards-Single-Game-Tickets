@@ -27,9 +27,18 @@ body  .background {
 }
 
 .headline .wizlogo {
-    width: 50%;
+    width: 320px;
+    float: left;
 }
 
-    
+.headline h4 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.headline h1 {
+    font-size: 23px;
+    margin-bottom: 18px;
+}
 
 
