@@ -82,10 +82,25 @@ body  .background {
     margin: 0 auto;
 }
 
+@media only screen and (max-width:480px) {
+.background .main {
+    width: 100%;
+    background-color: #F2F4F4;
+    margin: 0 auto;
+}
+
 .headline {
     width: auto;
 }
 
+.headline .col-lg-8 {
+    float: right;
+}
+  
+.headline .wizlogo {
+    float: left;
+}
+    
 .headline h1 {
     font-size: 23px;
     font-weight: bold;
