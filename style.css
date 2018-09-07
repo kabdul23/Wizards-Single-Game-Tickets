@@ -89,8 +89,8 @@ body  .background {
     margin: 0 auto;
 }
 
-.headline {
-    width: auto;
+.main .headline {
+    width: 100%;
 }
 
  
