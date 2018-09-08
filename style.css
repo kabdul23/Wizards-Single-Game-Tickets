@@ -18,6 +18,7 @@ body  .background {
 
 .background .main {
     width: 60%;
+    height: auto;
     background-color: #F2F4F4;
     margin: 0 auto;
 }
@@ -135,8 +136,9 @@ body  .background {
 
 /*TICKET SECTION*/
 
-.background .tickets {
-    width: 60%;
+.main .tickets {
+    width: 100%;
+    height: auto;
     background-color: #dddddd;
     margin: 0 auto;
 }
