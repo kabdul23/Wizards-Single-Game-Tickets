@@ -138,13 +138,14 @@ body  .background {
 
 /*TICKET SECTION*/
 
-.main .tickets {
-
+.background .tickets {
+    width: 60%;
     background-color: #dddddd;
     margin: 0 auto;
 }
 
-.schedule {
+.background .schedule {
+    width: 60%;
     background-color: white;
     margin: 0 auto;
 }
