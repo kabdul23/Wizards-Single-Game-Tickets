@@ -45,7 +45,7 @@ body  .background {
 
 @media only screen and (min-width:960px) {
 .headline .wizlogo {
-    
+    float: left;
     }
 
 
@@ -72,4 +72,58 @@ body  .background {
     text-align: center;
     text-decoration: none;
     font-size: 14px;
+}
+
+#write {
+    margin-left: 10px;
+    padding: 0px 12px;
+    border: 1px solid #009cde;
+    border-radius: 3px;
+    text-align: center;
+    background-color: transparent;
+    color: #009cde;
+}
+
+#write a:hover {
+    background-color: #009cde;
+    color: #FFFFFF;
+}
+
+
+#tweet {
+    position: relative;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+    background-color: #1b95e0;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+#like {
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+}
+
+   
+
+#friends {
+    margin-top: -1.5%;
+    margin-left: 10%;
+    font-size: 9px;
+}
+
+@media only screen and (max-width:480px) {
+#friends {
+    margin-top: -1.5%;
+    margin-left: 10%;
+    font-size: 9px;
+}
 }
