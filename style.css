@@ -13,6 +13,7 @@ body  .background {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 .background .main {
@@ -136,7 +137,7 @@ body  .background {
 /*TICKET SECTION*/
 
 .tickets {
-    width: 550px;
+    width: 60%;
     background-color: #dddddd;
     margin: 0 auto;
 }
