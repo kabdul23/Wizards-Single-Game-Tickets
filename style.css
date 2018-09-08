@@ -22,7 +22,7 @@ body  .background {
     margin: 0 auto;
 }
 
-@media only screen and (man-width:480px) {
+@media only screen and (max-width:480px) {
 .background .main {
     width: 90%;
     background-color: #F2F4F4;
@@ -45,14 +45,9 @@ body  .background {
 
 @media only screen and (min-width:960px) {
 .headline .wizlogo {
-    width: 200px;
-    height: 200px;
     float: left;
     }
-.headline .col-lg-8 {
-    float: right;
-    }
-}
+
 
 .headline h4 {
     font-size: 10px;
