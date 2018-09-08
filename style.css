@@ -45,6 +45,7 @@ body  .background {
 
 @media only screen and (min-width:960px) {
 .headline .wizlogo {
+    width: 245px;
     float: left;
     }
 }
