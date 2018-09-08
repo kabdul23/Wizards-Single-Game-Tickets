@@ -135,14 +135,14 @@ body  .background {
 
 /*TICKET SECTION*/
 
-.main .tickets {
-    width: 60%;
+.tickets {
+    width: 550px;
     background-color: #dddddd;
     margin: 0 auto;
 }
 
 @media only screen and (max-width:480px) {
-.background .tickets {
+.tickets {
     width: 90%;
     background-color: #dddddd;
     margin: 0 auto;
